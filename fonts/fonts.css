@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'QuaestorSans';
+		src: url('QuaestorSans.eot');
+		src: url('QuaestorSans.eot?#iefix') format('embedded-opentype'),
+		url('QuaestorSans.woff') format('woff'),
+		url('QuaestorSans.ttf') format('truetype'),
+		url('QuaestorSans.svg#QuaestorSans') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'QuaestorSans';
+		src: url('QuaestorSansBold.eot');
+		src: url('QuaestorSansBold.eot?#iefix') format('embedded-opentype'),
+		url('QuaestorSansBold.woff') format('woff'),
+		url('QuaestorSansBold.ttf') format('truetype'),
+		url('QuaestorSansBold.svg#QuaestorSans') format('svg');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'QuaestorSans';
+		src: url('QuaestorSansBoldItalic.eot');
+		src: url('QuaestorSansBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('QuaestorSansBoldItalic.woff') format('woff'),
+		url('QuaestorSansBoldItalic.ttf') format('truetype'),
+		url('QuaestorSansBoldItalic.svg#QuaestorSans') format('svg');
+	font-style: italic;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'QuaestorSans';
+		src: url('QuaestorSansItalic.eot');
+		src: url('QuaestorSansItalic.eot?#iefix') format('embedded-opentype'),
+		url('QuaestorSansItalic.woff') format('woff'),
+		url('QuaestorSansItalic.ttf') format('truetype'),
+		url('QuaestorSansItalic.svg#QuaestorSans') format('svg');
+	font-style: italic;
+	font-weight: normal;
+}
+

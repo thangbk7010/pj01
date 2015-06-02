@@ -1,0 +1,173 @@
+@media screen and (max-width: 1110px){
+	.container{
+		width: auto;
+		padding: 0px 10px;
+	}
+	.container > .logo, .container .nav{
+		float: none;
+		text-align: center;
+		margin: 20px 0px 0px;
+	}
+	.form-contact{
+		min-width: 900px;
+	}
+	.content-center{
+		margin: 0px auto;
+		width: 98%;
+	}
+	.tabs{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.profile-top, 
+	.profile-detail{
+		padding-left: 30px;
+		padding-right: 25px;
+	}
+	.detail-container{
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 923px){
+	.profile-top, 
+	.profile-detail{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.form-contact{
+		min-width: auto;
+		width: 98%;
+		padding: 20px 1%;
+	}
+	
+	.form-contact .form-left, .form-contact .form-right{
+		float: none;
+		width: 100%;
+		padding: 10px 1%;
+		height: auto;
+	}
+	.form-right-tel, .form-right-email{
+		min-height: 100px;
+	}
+	.logo-content{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.projectslider-container .bx-wrapper .bx-next, .projectslider-container .bx-wrapper .bx-prev{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.btn-toggle{
+		display: block;
+	}
+	ul.menu{
+		border-left: 1px solid #15395b;
+		border-right: 1px solid #15395b;
+		border-bottom: 1px solid #15395b;
+		display: none;
+	}
+	ul.menu li{
+		display: block;
+		border-top: 1px solid #15395b;
+		margin: 0px;
+	}
+	ul.menu li:first-child{
+		border: none;
+	}
+	ul.menu li a{
+		line-height: 40px;
+		
+	}
+	.form-right-tel, .form-right-email{
+		width: 100%;
+	}
+	
+	.content-center {
+		padding: 20px 0px;
+	}
+	
+	.content-center ul li{
+		display: block;
+		text-align: center;
+	}
+	
+	.content-center ul li a{
+		display: block;
+	}
+	.content-center ul li a img{
+		width: auto;
+		height: auto;
+		max-width: 100%;
+	}
+	
+	.tabs .tab-content h3{
+		height: auto;
+		min-height: 110px;
+		line-height: 55px;
+		text-align: center;
+		padding: 0px 20px;
+	}
+	.tabs .tab-content > ul.list-inline{
+		padding-left: 10px;
+	}
+	
+	.tabs .tab-title a {
+		background-color: #e0e0e0;
+		color: #1b304d;
+		display: inline-block;
+		font-size: 13px;
+		font-weight: 700;
+		line-height: 40px;
+		opacity: 0.7;
+		padding: 0 10px;
+		text-transform: uppercase;
+		width: auto;
+	}
+	.our-projects .projectslider li ul li{
+		width: 48%;
+		margin: 0px 1px 20px;
+	}
+	.profile-ct{
+		width: 100%;
+		text-align: center;
+	}
+	.slider .caption-slider{
+		font-size: 20px;
+		top: 60px;
+	}
+	
+	.form-left, .form-detail{
+		float: none;
+		width: auto;
+	}
+	.form-detail{
+		padding: 40px 0 0;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.our-projects .projectslider li ul li{
+		width: 98%;
+		margin: 0px 1px 20px;
+	}
+	.our-projects .projectslider ul li img{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+	.projectslider .caption-projects h2{
+		margin-bottom: 25px;
+	}
+	.slider .caption-slider{
+		font-size: 15px;
+		top: 20px;
+	}
+	.form-left{
+		padding-left: 26px;
+		padding-right: 18px;
+	}
+}
